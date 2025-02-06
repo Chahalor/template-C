@@ -1,3 +1,5 @@
+# Gitignore file for C/C++ projects made by github.com
+
 # Prerequisites
 *.d
 
@@ -50,3 +52,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+# Local files
+**/.obj/
+**/.vscode/
